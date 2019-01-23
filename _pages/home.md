@@ -1,4 +1,5 @@
 ---
+title: "Simple, Elegant Reporting for Workforce Ready"
 layout: splash
 permalink: /
 header:
