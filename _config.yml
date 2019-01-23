@@ -11,9 +11,9 @@ minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Aither, LLC"
+title                    : "Aither - Simple Reporting for Kronos"
 title_separator          : "-"
-name                     : &name "Christopher M. Keslin" # &name is a YAML anchor which can be *referenced later
+name                     : &name "Aither, LLC" # &name is a YAML anchor which can be *referenced later
 description              : &description "Easy reporting for Work Force Ready by Kronos."
 url                      : https://aitherllc.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/minimal-mistakes" # the subpath of your site, e.g. "/blog"
@@ -68,7 +68,7 @@ algolia:
   application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
   index_name             : minimal_mistakes # YOUR_INDEX_NAME
   search_only_api_key    : 9d5014e5bbc77372547bce778dfa5663 # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : true # true (default), false
+  powered_by             : false # true (default), false
   files_to_exclude:
     - _posts/2017-11-28-post-exclude-search.md
 
@@ -217,9 +217,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -228,7 +228,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _docs
   - scope:
       path: ""
