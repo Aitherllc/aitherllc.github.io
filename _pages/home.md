@@ -6,31 +6,31 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-envelope'></i> Contact Us"
+      url: "mailto:sales@aitherllc.com"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.15.1">Latest release v4.15.1</a></small>
+  Aither makes creating new PowerBI, SSRS, or any other type of report a breeze!<br />
+  <!-- <small><a href="https://aitherllc.com">Latest release</a></small> -->
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/powerbi.png
+    alt: "powerbi"
+    title: "Power BI"
+    excerpt: "Simple to configure and complete with samples!"
+    url: "mailto:sales@aitherllc.com"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/SSRS.png
+    alt: "SQL Server Reporting Services"
+    title: "SSRS"
+    excerpt: "Integrate with your companies existing reporting packages."
+    url: "mailto:sales@aitherllc.com"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+  - image_path: /assets/images/reporting-tools.png
+    alt: "Any Reporting Tool"
+    title: "Excel, Crystal, Tableau"
+    excerpt: "Have another favorite reporting tool?  Aither makes it simple to integrate any of them!"
+    url: "mailto:sales@aitherllc.com"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
