@@ -22,7 +22,7 @@ feature_row:
   - image_path: /assets/images/SSRS.png
     alt: "SQL Server Reporting Services"
     title: "SSRS"
-    excerpt: "Integrate with your companies existing reporting packages."
+    excerpt: "Integrate with your company's existing reporting packages."
     url: "/contact/"
     btn_class: "btn--primary"
     btn_label: "Contact Us"
